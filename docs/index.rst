@@ -352,6 +352,13 @@ The details of the cookie can be customized in the application settings.
                             **Default:** `None`
 `REMEMBER_COOKIE_PATH`      Limits the "Remember Me" cookie to a certain path.
                             **Default:** ``/``
+`REMEMBER_COOKIE_HTTPONLY`  Whether the "Remember Me" cookie can only be 
+                            transferred in HTTP requests, not accessed from
+                            JavaScript.
+                            **Default:** ``False``
+`REMEMBER_COOKIE_SECURE`    Whether to limit the "Remember Me" cookie to 
+                            secure connections only. 
+                            **Default:** ``None``
 =========================== =================================================
 
 
